@@ -1,0 +1,29 @@
+ABSTRACTIONS
+Entity
+Database
+DAO (Data Access Object)
+Query
+Repository
+LiveData 
+Annotations
+Libraries
+Method
+Transactions
+
+
+IDEAS
+
+Repository = manages different data sources
+LiveData = observable data holder
+Mental Model of whats going on 
+Do the "Using Kotlin Coroutines in your Android App"
+
+DAOS: offer methods to query database wihtout using the SQL
+Room: 
+ - Does not support queries on Main Thread
+ - Asynchronous queries = return type LiveData, Flowable etc are run in a worker thread
+
+Observers are the ones in active states??
+they have a lifecycle?  NO, but they are attached to Lifecycle of the LifecycleOwners
+
+
